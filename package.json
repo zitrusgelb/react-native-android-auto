@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-auto",
+  "name": "@jansneeuw/react-native-android-auto",
   "title": "React Native Android Auto",
   "version": "1.0.0",
   "description": "Android auto integration for React native apps",
@@ -9,7 +9,8 @@
     "android",
     "index.js",
     "ios",
-    "react-native-android-auto.podspec"
+    "react-native-android-auto.podspec",
+    "app.plugin.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,8 +26,8 @@
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Sven van der Zwet",
+    "email": "sven@firstordefault.nl"
   },
   "license": "private",
   "licenseFilename": "LICENSE",
