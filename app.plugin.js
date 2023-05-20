@@ -12,21 +12,6 @@ const withAutomotiveApp = (config) => {
             }
         });
 
-        // Adding service
-        mainApplication.service = (mainApplication.service || []).concat({
-            $: {
-                'android:name': "com.shopify.rnandroidauto.CarService",
-                'android:exported': "true",
-            },
-            'intent-filter': [{
-                action: [{
-                    $: {
-                        'android:name': "com.google.android.car.action.CAR_APP",
-                    }
-                }]
-            }]
-        });
-
         return config;
     });
 
