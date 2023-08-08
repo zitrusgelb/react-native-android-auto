@@ -1,0 +1,13 @@
+<manifest package="com.zitrusgelb.androidAuto" xmlns:android="http://schemas.android.com/apk/res/android">
+  <meta-data
+      android:name="com.google.android.gms.car.application"
+      android:resource="@xml/automotive_app_desc" />
+  
+  <service
+      android:name="com.shopify.rnandroidauto.CarService"
+      android:exported="true">
+      <intent-filter>
+      <action android:name="com.google.android.car.action.CAR_APP" />
+      </intent-filter>
+  </service>
+</manifest>
